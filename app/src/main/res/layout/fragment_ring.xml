@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ring Style :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/ringStyleSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/subRingStyleLL"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/subRingStyleTv"
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ring Style :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/subRingStyleSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RingGender :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/ringGenderSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ring Size  :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/rignSizeSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ring Resizable :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/ringResizableSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Stone/s :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/mainStoneSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Stone Creation/Treatment :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/mainStoneCreationSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Stone Cut :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/mainStoneCutSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MainStoneCutQuality :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/mainStoneCutQualitySpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Stone Color :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/mainStoneColorSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Stone Clarity/Quality :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/mainStoneClaritySpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appraisal Included :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/appraisalIncludeSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/labSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Stones :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/sideStonesSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Stone Creation/Treatment :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/sideStoneCreationSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Stone Cut :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/sideStoneCutSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Stone Color :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/sideStoneColorSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Stone Clarity/Quality :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/sideStoneClaritySpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metal :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/metalSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metal Stamp :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/metalStampSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Center PearlSize :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/centerPearlSizeSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JewelryUniformity :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/jewelryUniformitySpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JewelryPearlLuster :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/jewelryPearlLusterSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JewelryPearlNacreThickness :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/jewelryPearlNacreThicknessSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JewelryPearlShape :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/jewelryPearlShapeSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JewelryPearlSurfaceMarkings :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/jewelryPearlSurfaceMarkingsSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JewelryPearlBodycolor :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/jewelryPearlBodyColorSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JewelryPearlOvertone :"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/jewelryPearlOvertoneSpin"
+                style="@style/ProductSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <EditText
+            android:id="@+id/faceOverallDimensionsEt"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Face Overall Dimensions (In mm)"/>
+
+    <EditText
+            android:id="@+id/mainStoneCaratsEt"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Main Stone Carats"/>
+
+    <EditText
+            android:id="@+id/mainStoneMMEt"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Main Stone mm"/>
+
+    <EditText
+            android:id="@+id/certNumberEt"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Cert Number"/>
+
+    <EditText
+            android:id="@+id/sideStoneCaratsEt"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Side Stone Carats"/>
+
+    <EditText
+            android:id="@+id/totalCaratsEt"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Total Carats "
+            android:imeOptions="actionDone"/>
+
+</LinearLayout>

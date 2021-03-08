@@ -1,0 +1,5 @@
+Poor
+Fair
+Good
+Very Good
+Excellent

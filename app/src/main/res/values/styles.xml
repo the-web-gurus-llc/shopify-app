@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Sky Text Button-->
+    <style name="SkyTextButton" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorNormal</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <!--Auth TextView Title-->
+    <style name="AuthTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorNormal</item>
+    </style>
+
+    <!--Auth EditText-->
+    <style name="AuthEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorNormal</item>
+        <item name="android:textColorHint">@color/colorTint</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/textview_border_sky</item>
+    </style>
+
+    <!--Product TextView-->
+    <style name="ProductTextView">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textColorHint">@color/colorTint</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <!--Product EditText-->
+    <style name="ProductEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textColorHint">@color/colorTint</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/textview_border_sky</item>
+    </style>
+
+    <!--Product Spinner-->
+    <style name="ProductSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorTint</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:background">@drawable/textview_border_sky</item>
+    </style>
+
+    <!--Default Button-->
+    <style name="DefaultButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_default</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <!--Gray Text Button-->
+    <style name="TextButton" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#DC873B</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <!-- Text Size -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorPrimary">@color/colorNormal</item>
+        <item name="android:textColorHint">@color/colorNormal</item>
+        <item name="android:tint">@color/colorNormal</item>
+    </style>
+
+    <style name="fabTheme" parent="Widget.AppCompat.Button">
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+</resources>

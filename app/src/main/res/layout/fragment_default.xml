@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:id="@+id/mainStoneTypeET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ProductEditText"
+                android:inputType="text"
+                android:hint="Main Stone Type"
+                android:imeOptions="actionNext"/>
+
+        <EditText
+                android:layout_weight="1"
+                android:id="@+id/mainStoneColorET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ProductEditText"
+                android:inputType="text"
+                android:hint="Main Stone Color"
+                android:imeOptions="actionNext"/>
+
+    </LinearLayout>
+
+    <EditText
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:id="@+id/centerStoneSizeET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="@string/center_stone_size_in_mm"
+            android:imeOptions="actionNext"/>
+
+    <EditText
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:id="@+id/weightOfCenterStoneET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Weight of Center Stone in Carats"
+            android:imeOptions="actionNext"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metal: "
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/metalSpin"
+                style="@style/ProductSpinner"
+                android:entries="@array/metal_arrays"
+                android:prompt="@string/metal_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metal Finish: "
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/metalFinishSpin"
+                style="@style/ProductSpinner"
+                android:entries="@array/metal_finish_arrays"
+                android:prompt="@string/metal_finish_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:id="@+id/mainStoneClarityET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ProductEditText"
+                android:inputType="text"
+                android:hint="Main Stone Clarity"
+                android:imeOptions="actionNext"/>
+
+        <EditText
+                android:layout_weight="1"
+                android:id="@+id/numberOfSideStonesET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ProductEditText"
+                android:inputType="text"
+                android:hint="Number of Side Stones"
+                android:imeOptions="actionNext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Stone Shape:"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/mainStoneShapeSpin"
+                style="@style/ProductSpinner"
+                android:entries="@array/mainStoneShape_arrays"
+                android:prompt="@string/mainStoneShape_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_marginEnd="@dimen/marginbetween_addproduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Side Stone Shape:"
+                style="@style/ProductTextView"/>
+
+        <Spinner
+                android:id="@+id/sideStoneShapeSpin"
+                style="@style/ProductSpinner"
+                android:entries="@array/sideStoneShape_arrays"
+                android:prompt="@string/sideStoneShape_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <EditText
+            android:id="@+id/sideStoneWeightET"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Side Stone Weight in Carats"
+            android:imeOptions="actionNext"/>
+
+    <EditText
+            android:id="@+id/sideStoneColorET"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Side Stone Color"
+            android:imeOptions="actionNext"/>
+
+    <EditText
+            android:id="@+id/sideStoneClarityET"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Side Stone Clarity"
+            android:imeOptions="actionNext"/>
+
+    <EditText
+            android:id="@+id/totalCaratsPieceET"
+            android:layout_marginTop="@dimen/margin_bettweenll_addproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ProductEditText"
+            android:inputType="text"
+            android:hint="Total Carats for the piece"
+            android:imeOptions="actionDone"/>
+
+</LinearLayout>

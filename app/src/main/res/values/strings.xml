@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">HarryChadEnt</string>
+    <string name="sign_in">Sign In</string>
+    <string name="emailorphone">Email/Phone Number</string>
+    <string name="password">Password</string>
+    <string name="create_new_account">Create an account\?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_with_touchID">Sign In with TouchID</string>
+    <string name="alreadyaccount">Already have an account?</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phonenumberverification">PhoneNumber Verification</string>
+    <string name="verifyCodeTemp">123456</string>
+    <string name="confirm">Confirm</string>
+    <string name="toolbarName">HarryChadEnt</string>
+    <string name="incorrectUserNameandPassword">Incorrect username or password provided.</string>
+    <string name="fingerprintauth">Fingerprint Authentication</string>
+    <string name="place_your_fingertip_on_the_home_button_to_verify_your_identity">Place your fingertip on the Home
+        Button to verify your identity
+    </string>
+    <string name="product_detail">Product Detail</string>
+    <string name="description">Description</string>
+    <string name="add_a_product">Add a product</string>
+    <string name="ref">Ref#</string>
+    <string name="price">Price</string>
+    <string name="center_stone_size_in_mm">Center Stone Size in mm</string>
+
+    <string name="jewelry_prompt">Jewelry Type</string>
+    <string name="jewelry_type">Jewelry Type:</string>
+
+    <string-array name="jewelry_arrays">
+        <item>Bracelet</item>
+        <item>Brooch</item>
+        <item>Clip</item>
+        <item>Cufflinks</item>
+        <item>Earrings</item>
+        <item>Engagement Ring</item>
+        <item>Eternity Band</item>
+        <item>Jewelry Accessory</item>
+        <item>Necklace</item>
+        <item>Pendant</item>
+        <item>Pin</item>
+        <item>Ring</item>
+        <item>Watch</item>
+        <item>Watch Accessory</item>
+        <item>Wedding Band</item>
+        <item>Vintage &amp; Antique Jewelry</item>
+    </string-array>
+
+    <string name="metal_prompt">Metal</string>
+
+    <string-array name="metal_arrays">
+        <item>White Gold 14K</item>
+        <item>Platinum</item>
+        <item>Rose Gold 14K</item>
+        <item>Sterling Silver</item>
+        <item>Two Tone White Gold and Rose Gold 14K</item>
+        <item>Two Tone White Gold and Yellow Gold 14K</item>
+        <item>Yellow Gold 14K</item>
+    </string-array>
+
+    <string name="metal_finish_prompt">Metal Finish</string>
+
+    <string-array name="metal_finish_arrays">
+        <item>Black</item>
+        <item>Matt</item>
+        <item>Two Tone</item>
+        <item>White Gold</item>
+        <item>Yellow Gold</item>
+    </string-array>
+
+    <string name="mainStoneShape_prompt">Main Stone Shape</string>
+
+    <string-array name="mainStoneShape_arrays">
+        <item>Oval</item>
+        <item>Asscher</item>
+        <item>Cushion</item>
+        <item>Emerald</item>
+        <item>Heart</item>
+        <item>Marquise</item>
+        <item>Pear</item>
+        <item>Princess</item>
+        <item>Radiant</item>
+        <item>Round</item>
+        <item>Trilliant</item>
+        <item>Trillion</item>
+    </string-array>
+
+    <string name="sideStoneShape_prompt">Side Stone Shape</string>
+    <string name="submitbtntext">Submit</string>
+
+    <string-array name="sideStoneShape_arrays">
+        <item>Princess</item>
+        <item>Asscher</item>
+        <item>Baguette</item>
+        <item>Bullet</item>
+        <item>Cushion</item>
+        <item>Emerald</item>
+        <item>Half Moons</item>
+        <item>Heart</item>
+        <item>Marquise</item>
+        <item>Oval</item>
+        <item>Pear</item>
+        <item>Radiant</item>
+        <item>Round</item>
+        <item>Trilliant</item>
+        <item>Trillion</item>
+    </string-array>
+
+</resources>
